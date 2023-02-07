@@ -11,6 +11,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.0.6"
+    "astro": "^2.0.6",
+    "postcss": "^8.4.21",
+    "postcss-preset-env": "^8.0.1"
   }
 }
