@@ -14,7 +14,11 @@ import Link from "./Link.astro";
       <Icon name="logomark" width="60" />
     </a>
     <ul>
-      {navData.map((item) => <Link text={item.name} href={item.path} style="primary" isFilled={false} />)}
+      {navData.map((item) => <Link text={item.name} href={item.path} style="primary" isFilled={false} data-navlink />)}
     </ul>
   </div>
 </nav>
+
+<script>
+  import "../js/nav";
+</script>
